@@ -1,0 +1,11 @@
+
+switch (true) {      
+ 
+case (var1 === true && var2 === true) :       
+ //do something       
+ break;    
+  case (var1 === false && var2 === false) :     
+   //do something     
+   break;  
+     default:   
+  }
