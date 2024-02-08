@@ -1,4 +1,4 @@
-# Dates-management-functions
+# Utilities in typescript
 
 
-Basic functions to manipulate dates in typescript
+Basic functions to use as utilities in typescript
