@@ -1,5 +1,4 @@
 import * as React from "react";
-import { OnlineCompanionConstants } from "./OnlineCompanionContants";
 
 const SessionTimeoutCounter = () => {
   const initialTimer = window.sessionStorage.getItem("timer") ?? 300; // 60 * 5 = 300min
