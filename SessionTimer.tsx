@@ -8,7 +8,6 @@ const SessionTimeoutCounter = () => {
   const countTimer = React.useCallback(() => {
     if (timer <= 0) {
       window.sessionStorage.removeItem("timer");
-      window.sessionStorage.removeItem(OnlineCompanionConstants.IS_OTO_UNKNOWN_SUBMITTED); 
        } else {
       setTimer(timer - 1);
       window.sessionStorage.setItem("timer", timer);
